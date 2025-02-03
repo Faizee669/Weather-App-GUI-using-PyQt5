@@ -28,10 +28,9 @@ A Python-based desktop application that provides real-time weather updates using
    cd weather-app
 
 **Install dependencies:**
-   ```bash
+
    pip install -r requirements.txt
 **Run the application:**
-```bash
    python WeatherApp.py
 
 ## 🔑 API Key Configuration  
