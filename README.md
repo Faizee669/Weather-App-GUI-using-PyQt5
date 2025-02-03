@@ -2,6 +2,9 @@
 
 A Python-based desktop application that provides real-time weather updates using the OpenWeather API. Built with **PyQt5**, this app features an interactive user interface that fetches and displays weather details such as **temperature, condition, and an emoji representation of the weather**.
 
+## DEMO
+![Image](https://github.com/user-attachments/assets/3915b797-d78d-4b7b-b8d0-3ddb56ed3bcb)
+
 ## 🚀 Features
 
 - **Real-time Weather Data:** Fetches live weather updates for any city.
