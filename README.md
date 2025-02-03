@@ -36,28 +36,27 @@ A Python-based desktop application that provides real-time weather updates using
 ## 🔑 API Key Configuration  
 To fetch weather data, an API key from OpenWeatherMap is required.  
 
-1. Get your API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys).  
-2. Open `project_v2.py` and replace the existing API key:  
+- 1. Get your API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys).  
+- 2. Open `WeatherApp.py` and replace the existing API key:  
 
    ```python
    self._weather_api = OpenWeatherAPI("your_api_key_here")
 
-## 📌 How It Works
-Enter a city name in the input field.
-Click "Get Weather" to fetch weather details.
-The app displays:
-Temperature (°C or °F)
-Weather description (e.g., "Cloudy")
-Emoji representation (e.g., ☀️ for sunny, 🌧️ for rainy)
-Click the unit button to switch between Celsius and Fahrenheit.
+## 📌 How It WorksEnter a city name in the input field.
+- Click "Get Weather" to fetch weather details.
+- The app displays:
+- Temperature (°C or °F)
+- Weather description (e.g., "Cloudy")
+- Emoji representation (e.g., ☀️ for sunny, 🌧️ for rainy)
+- Click the unit button to switch between Celsius and Fahrenheit.
 ## 🎯 Object-Oriented Principles Used
-**Ecapsulation:** All UI and API functions are modularized.
-**Abstraction:** Users interact with a simple interface while complex API logic runs in the background.
-**Inheritance:** WeatherApp inherits from BaseApp to manage GUI.
-**Polymorphism:** Weather icons change dynamically based on weather conditions.
+- **Ecapsulation:** All UI and API functions are modularized.
+- **Abstraction:** Users interact with a simple interface while complex API logic runs in the background.
+- **Inheritance:** WeatherApp inherits from BaseApp to manage GUI.
+- **Polymorphism:** Weather icons change dynamically based on weather conditions.
 ## 🔮 Future Enhancements
-**Weather Forecast:** Display upcoming weather predictions.
-**Geolocation:** Fetch weather based on the user's current location.
-**Dark Mode:** Improve UI for nighttime usage.
-**Multi-language** Support: Add support for different languages.
+- **Weather Forecast:** Display upcoming weather predictions.
+- **Geolocation:** Fetch weather based on the user's current location.
+- **Dark Mode:** Improve UI for nighttime usage.
+- **Multi-language** Support: Add support for different languages.
 
