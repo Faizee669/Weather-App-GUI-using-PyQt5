@@ -60,3 +60,18 @@ To fetch weather data, an API key from OpenWeatherMap is required.
 - **Dark Mode:** Improve UI for nighttime usage.
 - **Multi-language** Support: Add support for different languages.
 
+  ## 🤝 Contributing  
+
+Contributions are welcome! If you'd like to contribute to this project, follow these steps:  
+
+### 1. Fork the Repository  
+Click the **Fork** button at the top-right of this repository to create a copy in your GitHub account.  
+
+### 2. Clone the Repository  
+Clone your forked repository to your local machine using:  
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+cd weather-app
+
+
