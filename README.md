@@ -33,10 +33,13 @@ A Python-based desktop application that provides real-time weather updates using
 **Run the application:**
 ```bash
    python WeatherApp.py
-## 🔑 API Key Configuration
-To fetch weather data, an API key from OpenWeatherMap is required.
-Get your API key from OpenWeatherMap.
-**Open WeatherApp.py and replace the existing API key:**
-```bash
+
+## 🔑 API Key Configuration  
+To fetch weather data, an API key from OpenWeatherMap is required.  
+
+1. Get your API key from [OpenWeatherMap](https://home.openweathermap.org/api_keys).  
+2. Open `project_v2.py` and replace the existing API key:  
+
+   ```python
    self._weather_api = OpenWeatherAPI("your_api_key_here")
 
