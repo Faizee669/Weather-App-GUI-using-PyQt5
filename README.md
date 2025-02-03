@@ -10,7 +10,7 @@ A Python-based desktop application that provides real-time weather updates using
 - **Real-time Weather Data:** Fetches live weather updates for any city.
 - **User-Friendly Interface:** Simple and intuitive PyQt5 GUI.
 - **Weather Representation:** Displays temperature, description, and relevant emoji.
-- **Unit Conversion:** Toggle between **Celsius (\u00b0C)** and **Fahrenheit (\u00b0F)**.
+- **Unit Conversion:** Toggle between **Celsius °C** and **Fahrenheit °F**.
 - **Error Handling:** Displays error messages for invalid city names or API failures.
 
 ## 🏰 Technologies Used
