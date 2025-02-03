@@ -26,8 +26,8 @@ A Python-based desktop application that provides real-time weather updates using
    ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
-pip install -r requirements.txt
-python WeatherApp.py
+   pip install -r requirements.txt
+   python WeatherApp.py
 
-self._weather_api = OpenWeatherAPI("your_api_key_here")
+   self._weather_api = OpenWeatherAPI("your_api_key_here")
 
