@@ -60,7 +60,7 @@ To fetch weather data, an API key from OpenWeatherMap is required.
 - Enter a city name in the input field.
 - Click "Get Weather" to fetch weather details.
 - The app displays:
-  - Temperature (\u00b0C or \u00b0F)
+  - Temperature (°C or °F)
   - Weather description (e.g., "Cloudy")
   - Emoji representation (e.g., ☀️ for sunny, 🌧️ for rainy)
 - Click the unit button to switch between Celsius and Fahrenheit.
