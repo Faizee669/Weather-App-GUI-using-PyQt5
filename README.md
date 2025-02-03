@@ -26,8 +26,17 @@ A Python-based desktop application that provides real-time weather updates using
    ```bash
    git clone https://github.com/yourusername/weather-app.git
    cd weather-app
+
+**Install dependencies:**
+   
    pip install -r requirements.txt
+**Run the application:**
    python WeatherApp.py
+**🔑 API Key Configuration**
+To fetch weather data, an API key from OpenWeatherMap is required.
+
+Get your API key from OpenWeatherMap.
+Open WeatherApp.py and replace the existing API key:
 
    self._weather_api = OpenWeatherAPI("your_api_key_here")
 
